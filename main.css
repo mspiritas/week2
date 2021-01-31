@@ -1,0 +1,60 @@
+body {font-family: 'IBM Plex Sans', sans-serif;}
+
+form {background-color: #e2f1f3;
+      border: double 4px #b6dce0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 17em;
+      padding: 1em;}
+
+#formname {text-align: center;
+           color: #2f495e;
+           text-shadow: 2px 2px #e2f1f3;}
+
+label, input {display: inline-block;}
+
+.info {float: right;
+       background-color: #f2def1;}
+
+#buttons {text-align: center;
+          margin-top: 1.5em;}
+
+#submit {background-color: #dace8b;
+         font-size: 1.25em;
+         border: 3px solid #2f495e;
+         padding: 0.4em;}
+
+#results {align-items: center;
+          height: 12em;
+          border: double 4px #f39cef;
+          padding: 2em;
+          background-color: #f2def1;
+          width: 80vw;
+          margin: auto;}
+
+#results1 {text-align: center;
+           margin-bottom: 0;
+           font-size: 2.25em;
+           margin-top: 0.5em;}
+
+#results2 {text-align: center;
+           margin-top: 0.2em;
+           margin-bottom: 0;}
+
+#results3 {text-align: center;
+           margin-top: 0.2em;}
+
+#results4 {text-align: center;
+           font-size: .7em;
+           margin-left:auto;
+           margin-right: auto;
+           margin-top: 5em;
+           margin-bottom; 0;
+           background-color: #403f3f;
+           color: #FFF;
+           padding: .75em;
+           width: 80vw;}
+
+.error {color: red;
+        text-align: center;
+        margin-top: 0;}
