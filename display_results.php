@@ -1,7 +1,7 @@
 <?php
-    $first_name = filter_input(INPUT_POST, 'first_name');
-    $last_name = filter_input(INPUT_POST, 'last_name');
-    $age = filter_input(INPUT_POST, 'age', FILTER_VALIDATE_INT);
+    $first_name = filter_input(INPUT_GET, 'first_name');
+    $last_name = filter_input(INPUT_GET, 'last_name');
+    $age = filter_input(INPUT_GET, 'age', FILTER_VALIDATE_INT);
 
         //calculating days old
         $days_old = $age * 365;

@@ -16,7 +16,7 @@
     <body>
         <main>
             <h1 id="formname">Am I old<br>enough to vote?</h1>
-            <form action="display_results.php" method="post">
+            <form action="display_results.php" method="get">
                 <div id="data">
                     <?php if (!empty($error_message)) { ?>
                     <p class="error"><?php echo htmlspecialchars($error_message); ?></p>
